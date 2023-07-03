@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
+    
     <title>BMW - Autos - ventas - compras</title>
 </head>
 <body>
@@ -17,16 +20,16 @@
             </ul>
 
         </nav>
-        <h1 class="title">Titulo del Sitio</h1>
+        <h1 class="title nimate__animated animate__heartBeat" >Titulo del Sitio</h1>
     </header>
 
     <main class="main">
-        <section class="container-text">
+        <section class="container-text" data-aos="fade-up">
             <h2>Subtitulo</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora assumenda provident architecto impedit, et nemo doloribus itaque voluptatem error, numquam voluptatum alias earum in quae vel. Tenetur, error quis? Labore.</p>
         </section>
         
-        <section class="container-products">
+        <section class="container-products" data-aos="fade-up">
             <div class="card">
                 <img class="card-img" src="./multimedia/img/1 card.jpg" alt="">
                 <h3 class="card-product-name">Nombre</h3>
@@ -68,6 +71,11 @@
     </div>
 
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
     
 </body>
 </html>
