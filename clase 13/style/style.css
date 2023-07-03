@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* estilos seccion header */
+
+.header {
+    background-image: url(../multimedia/img/alex-suprun-A53o1drQS2k-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px; 
+    /* padding: 150px; */
+    margin: 0 15px;
+    padding: 40px 10px;
+
+}
+
+.list-nav {
+    list-style: none;
+
+}
+
+.item-nav {
+    margin: 15px 0;
+}
+.item-nav > a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 2px;
+    
+}
+
+
+
+.item-nav > a:hover {
+    background-color: black;
+
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+/* estilos seccion main */
+
+.main {
+    border: 1px solid red;
+    margin: 10 15px 0;
+    padding: 40px 10px;
+
+}
+.container-text {
+    text-align: center;
+    color: black;
+}
+.container-text > h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.container-text > p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container-products {
+    /* border: 1px solid red ; */
+    margin: 20px 0;
+
+}
+
+.card {
+    width: 30%;
+    height: 500px;
+    display: inline-block;
+    border: 1px solid red ;
+    margin: 0 20px;
+}
+
+.card-img {
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin: auto;
+}
+
+.card-product-name {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.card-product-description {
+    display: block;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+/* footer */
+
+.footer {
+    border: 1px solid red;
+    margin:  0 15px;
+    padding: 40px 10px;
+}
+
+.footer > p {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightgray;
+    
+}
+
+.list-social-media {
+    list-style: none;
+}
+
+.list-social-media > li {
+    text-decoration: none;
+    color: black;
+}

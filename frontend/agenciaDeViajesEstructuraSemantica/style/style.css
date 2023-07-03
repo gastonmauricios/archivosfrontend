@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    border: 1px solid red;
+    background-color: rgb(72, 237, 158);
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+#header > h1 {
+    display: inline;
+    margin-left: 20px;
+
+}
+
+#header > img {
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 50%;
+    
+}
+nav{
+    display: inline;
+    margin-left: 200px;
+}
+
+.containerNav > ul {
+    display: inline;
+
+}
+
+.navItem {
+    display: inline;
+    margin-left: 15px;
+}
+.main {
+    z-index: 3;
+}

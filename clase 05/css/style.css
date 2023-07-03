@@ -1,0 +1,97 @@
+ *{
+    /*color: brown; }  elegir 3 tipos de fuentes selector universal todo el texto cambia el color, pero cambia pero el efecto en cascada */
+    font-family:'Roboto', sans-serif;
+ }
+
+ 
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+
+ /* @font-face {
+    font-family:'tipografialocal' ; /* nombre local para cambio de fuente 
+    src: url("../BebasNeue-Regular.ttf"); /* descargar fuente y linkear 
+} */
+
+body{
+    background-color:rgb(254, 255, 255);
+}  
+
+
+h1 {
+    color:brown;
+    /* font-family: 'tipografialocal'; */
+    font-family: 'Dancing Script', cursive;
+}
+
+h3{
+    color: rgb(11, 92, 124);
+    background-color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+p{
+    color: rgb(214, 18, 110); /* rgbA modifica la opacidad*/
+}
+
+.parrafo {   
+    color: blueviolet;
+}
+
+#tituloPrincipal { /* # se lo llama ATRIBUTO ID, es unico y no se repite*/
+    color: crimson;
+}
+
+h1 {
+    color: rgb(226, 183, 43) !important; /* toma la porpiedad aplica su regla y descarta las demas */
+}
+
+tr{
+    color: rgb(0, 255, 85);
+}
+
+#subTitulo {
+    color: rgb(25, 110, 37);
+}
+
+.negrita{
+    font-weight:bold;
+    font-size: 20px;
+}
+
+/* selectores css por 1 etiqueta 2 clase 3 id */
+/* selectores css por decendencia div elemento dentro de otro elemento*/
+/* selector hijo directo css mayor que div > p{ */
+
+/* div p{
+    color: blue; ctrl + k ctrl + c comenta!!
+} */
+div > p {
+    color: gold; 
+
+}  /* solo trabaja con hijos directos */
+
+/* selector de hermanos adyacentes se representa con div + p {*/
+/* selector de hermanos generales se representa con tilde div ~ p { */
+/* introdicion a tipografia
+diferentes estilos cada una comunica algo diferente
+
+serif terminacion curva
+sans serif terminacion recta
+slab serif terminacion gruesa y forma de bloques arriba y abajo
+handwriting mano alzada
+monospace cada letra es proporcional a su espacio tiene un ancho fijo. ejemplo una p ocupa mas espacio que una i
+.ttf .woff .woff2 .eot formatos
+google fonts para linkiar tipografias sin descargar. version para iconos
+el navegador usa un set por defecto.
+
+ultima manera de importar fuentes
+@import vincular desde google
+
+
+
+*/

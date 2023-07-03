@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML frontend</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--  copiar el link de la fuente y luego aplicar regla css de google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <!-- /* los cdn mantienen las fuentes online */ -->
+
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    
+    <!-- <style>  cometar ctrl + K y luego ctrl + c
+        /* sintaxis de CSS */
+        /* selector {
+        propiedades a modificar
+        } */
+
+        body {
+            background-color: lightblue;
+        }
+    </style> -->
+    
+    <link rel="stylesheet" href="./css/style.css"> 
+</head>
+<body>
+    <h1 id="tituloPrincipal">Aprendiendo HTML</h1>
+    <h3 id="subTitulo">¿que es HTml?</h3>
+
+    <p>HTML, siglas en inglés de HyperText Markup Language, hace referencia al lenguaje de marcado para la elaboración de páginas web</p>
+    <!--alt + z acomoda el parrafo-->
+    <!--control + k C y descomentar control + k U-->
+    
+    <h3>Etiqueta img</h3> <!--categoria en linea-->
+    <p class="parrafo negrita">Categoria en linea</p>
+    
+    <!--imagen con ruta relativa-->
+
+    <img src="./multimedia/img/img1.jpg" width="100" height="100" alt="imagen de perro">
+    <p class="parrafo"> pie de foto</p>
+    <img src="multimedia/img/img2.jpg"width="100" height="100" alt="imagen de perro">
+    <p class="parrafo"> pie de foto</p>
+    
+    <!--imagen con ruta absoluta-->
+    <img src="https://www.alura.com.br/artigos/assets/html-css-js/imagem-1.png" alt="logo de html" width="100" height="100">
+    
+    <h3>Etiqueta Figure</h3>
+    <p class="parrafo negrita">Categoria en linea</p>
+    <figure>
+        <img src="./multimedia/img/img4.jpg" width="100" height="100" alt="descripcion de foto"> <!--por defecto trae un margen de 40px y 16 arriba y abajo-->
+        <figcaption>la comunidad mas grande  de programacion, parrafo pie de pagina</figcaption>
+    </figure>
+    <!--dos formas de subir imagenes ./ o multimedia-->
+    <!-- control + X limpia la linea-->
+    <!--seo posicionamiento de la webP formato de imagen mas usada
+    optimizar img iloveimg.cmo optimole.com kreken.io-->
+    <!--tag auto rename tag plugin agrega el final del Tag-->
+    <!--TAG audio-->
+    
+    
+    <h3>Etiqueta audio</h3> <!--categoria en linea-->
+    <p class="parrafo">Categoria en linea</p>
+    <audio controls src="./multimedia/audio/Luke Combs - Fast Car.mp3"></audio>
+    <audio controls src="./multimedia/audio/no corras mas.mp3"></audio>
+    <audio controls src="./multimedia/audio/beat 01 piano en C menor.mp3"></audio>
+    
+    
+    <h3>Etiqueta video</h3> <!--categoria en linea si un elemento se encuentra uno al lado de otros es en linia-->
+    <p class="parrafo">Categoria en linea</p>
+    <video src="./multimedia/video/Queen  Dont Stop Me Now Official Video_360p.mp4" controls width="500" height="800"></video>
+    
+    <h3>Etiqueta frame</h3> <!--categoria en linea-->
+    <p class="parrafo">Categoria en linea</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HgzGwKwLmgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    
+    <h3>Etiqueta table</h3> <!--categoria en linea-->
+    <p class="parrafo">Categoria en bloque</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Clase</th>
+                <th>Tema</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>00</td>
+                <td>introduccion</td>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Prototipado</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>html1</td>
+            </tr> <!--shift + alt + flecha abajo duplica seleccion-->
+            <tr>
+                <td>03</td>
+                <td>html2</td>
+            </tr> <!--shift + alt + flecha abajo duplica seleccion-->
+        </tbody>
+    
+    </table>
+    <!--copia codigos para insertar de otras web-->
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, cupiditate.</p>
+        <section>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta rem dolorum repellat voluptatum maxime minus, expedita ab nesciunt, hic delectus a debitis aut ipsum unde reprehenderit distinctio laboriosam optio. Voluptatum?</p>
+        </section>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, dignissimos dolorum cum veritatis saepe consequatur quo odit, quibusdam tempore quod deleniti esse cumque magni provident temporibus et nesciunt odio omnis.
+        </p>
+    </div>
+
+
+    
+
+
+
+    
+</body>
+</html>

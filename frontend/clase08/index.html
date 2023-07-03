@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+<!-- CSS Reset -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+<!-- Milligram CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+<!-- You should properly set the path from the main file. -->
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>contactanos</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, atque nihil! Porro eveniet quae voluptas facere ad pariatur deserunt. Vel!</p>
+
+    </header>
+    
+    <main class="container">
+        <section class="row">
+            <form class="column column-100" action="#" method="post">
+                <!--nombre de la persona-->
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Juan" maxlength="20" minlength="6" required>
+                <!-- mail de la persona -->
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="a@a.com">
+                <!-- fecha -->
+                <label for="fechaNacimiento">Fecha de Nacimiento</label>
+                <input type="date" name="fechaNacimiento" required>
+                <input type="password" name="password" placeholder="contraseña" maxlength="10" minlength="8" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$">
+                <input type="tel" name="telefono" placeholder="222122256">
+                <input type="number" name="telefono" placeholder="222122256">
+                <input type="datetime" name="hora" placeholder="hora">
+                <input type="time" name="hora">
+                <textarea name="consulta" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="enviar">
+                <input type="reset">
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
